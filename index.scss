@@ -32,7 +32,7 @@
 
 .logo{
 
-  padding-top: 60px;
+  padding-top: 42%;
   padding-bottom: 20px;
 
    img{
@@ -53,8 +53,43 @@
   width: 90%;
   border: 3px solid #73AD21;
   // padding: 10px;
+  
+  .button{
+
+ padding: 6% 0% 6% 24%;
+  
+}
 }
 
 .main{
   height: auto;
+}
+
+#gsearch{
+  width: 100%;
+}
+
+
+.links{
+ float: right;
+  
+}
+
+@media only screen and (max-width:600px){
+  .logo{
+
+    padding-top: 38%;
+    padding-bottom: 20px;
+}
+
+form{
+ 
+  width: 100%;
+
+  .button{
+
+ padding: 6% 0% 6% 24%;
+  
+}
+}
 }

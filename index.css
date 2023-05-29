@@ -48,7 +48,7 @@
   display: table; }
 
 .logo {
-  padding-top: 60px;
+  padding-top: 42%;
   padding-bottom: 20px; }
   .logo img {
     width: 300px;
@@ -62,8 +62,26 @@
   margin: auto;
   width: 90%;
   border: 3px solid #73AD21; }
+  .form .button {
+    padding: 6% 0% 6% 24%; }
 
 .main {
   height: auto; }
+
+#gsearch {
+  width: 100%; }
+
+.links {
+  float: right; }
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    padding-top: 38%;
+    padding-bottom: 20px; }
+
+  form {
+    width: 100%; }
+    form .button {
+      padding: 6% 0% 6% 24%; } }
 
 /*# sourceMappingURL=index.css.map */
