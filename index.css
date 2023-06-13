@@ -48,10 +48,9 @@
   display: table; }
 
 .logo {
-  padding-top: 42%;
-  padding-bottom: 20px; }
+  padding-top: 110px; }
   .logo img {
-    width: 300px;
+    width: 290px;
     height: auto;
     object-fit: cover;
     display: block;
@@ -76,11 +75,35 @@
 
 @media only screen and (max-width: 600px) {
   .logo {
-    padding-top: 38%;
-    padding-bottom: 20px; }
+    padding-bottom: 23px; }
 
   form {
     width: 100%; }
+    form .button {
+      padding: 6% 0% 6% 24%; } }
+@media only screen and (min-width: 600px) {
+  .logo {
+    padding-bottom: 23px; }
+
+  form {
+    width: 100%; }
+    form .button {
+      padding: 6% 0% 6% 24%; } }
+@media only screen and (min-width: 768px) {
+  .logo {
+    padding-bottom: 23px; }
+
+  form {
+    width: 90%; }
+    form .button {
+      padding: 6% 0% 6% 24%; } }
+@media only screen and (min-width: 992px) {
+  .logo {
+    padding-top: 106px;
+    padding-bottom: 23px; }
+
+  form {
+    width: 90%; }
     form .button {
       padding: 6% 0% 6% 24%; } }
 
