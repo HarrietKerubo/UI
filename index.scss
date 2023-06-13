@@ -31,7 +31,8 @@
   }
 
 .logo{
-  padding-top: 110px;
+  padding-top: 103px;
+  padding-bottom: 23px;
  
    img{
     width: 290px;
@@ -75,8 +76,8 @@
 
 @media only screen and (max-width:600px){
   .logo{ 
-    // padding-top: 40%;
-    padding-bottom: 23px;
+   
+  
 }
 
 form{
@@ -93,8 +94,7 @@ form{
 @media only screen and (min-width:600px){
   .logo{
    
-    // padding-top: 32%;
-    padding-bottom: 23px;
+   
 }
 
 form{
@@ -110,9 +110,7 @@ form{
 }
 @media only screen and (min-width:768px){
   .logo{
-    
-    // padding-top: 32%;
-    padding-bottom: 23px;
+   
 }
 
 form{
@@ -128,9 +126,9 @@ form{
 }
 @media only screen and (min-width:992px){
   .logo{
-    padding-top: 106px;
-    // padding-top: 32%;
-    padding-bottom: 23px;
+    padding-top: 103px;
+   
+    
 }
 
 form{
