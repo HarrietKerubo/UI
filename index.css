@@ -58,25 +58,25 @@
     margin-left: auto;
     margin-right: auto; }
 
-.form {
-  margin: auto;
-  border: 3px solid #73AD21; }
-  .form .button {
-    padding: 27px 32px;
-    text-align: center; }
-  .form #fbutton {
-    margin: 2px 2px;
-    padding: 8px 12px;
-    font-size: 14px;
-    display: inline-block;
-    cursor: pointer; }
+.form .button {
+  padding: 27px 32px;
+  text-align: center; }
+.form #fbutton {
+  margin: 2px 2px;
+  padding: 8px 12px;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer; }
 
 .main {
   height: auto; }
 
 #gsearch {
-  width: 100%;
-  border-radius: 25px; }
+  margin: 0 auto;
+  display: block;
+  max-width: 587px;
+  border-radius: 25px;
+  width: 100%; }
 
 .links {
   float: right; }
@@ -86,21 +86,9 @@ input[type=text] {
 
 @media only screen and (max-width: 600px) {
   .logo {
-    padding-top: 108px; }
-
-  form {
-    width: 100%; } }
+    padding-top: 108px; } }
 @media only screen and (min-width: 600px) {
-  form {
-    margin: auto;
-    width: 70%; } }
-@media only screen and (min-width: 768px) {
-  form {
-    margin: auto;
-    width: 67%; } }
-@media only screen and (min-width: 992px) {
-  form {
-    margin: auto;
-    width: 40%; } }
+  form #gsearch {
+    width: 92%; } }
 
 /*# sourceMappingURL=index.css.map */

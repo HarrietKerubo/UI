@@ -48,12 +48,7 @@
 
 
 .form{
-  margin: auto;
-  // width: 90%;
-  border: 3px solid #73AD21;
  
-  
-  
   .button{
     padding: 27px 32px;
     text-align: center;
@@ -65,8 +60,6 @@
    font-size: 14px;
     display: inline-block;
     cursor: pointer;
-   
-
   
 }
 }
@@ -76,8 +69,12 @@
 }
 
 #gsearch{
-  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 587px;
   border-radius: 25px;
+  width: 100%;
+
 }
 
 
@@ -94,34 +91,23 @@ input[type=text]{
   .logo{
     padding-top: 108px;
   }
-form{
- 
-  width: 100%;
 
- }
 }
 @media only screen and (min-width:600px){
-
 form{
-  margin: auto;
-  width: 70%;
-
  
+  #gsearch{
+    width:92%;
+   
+  }
 }
+
 }
 @media only screen and (min-width:768px){
   
-form{
- 
-  margin: auto;
-  width: 67%;
-}
+
 }
 @media only screen and (min-width:992px){
   
-form{
-  margin: auto;
-  width: 40%;
 
-}
 }
